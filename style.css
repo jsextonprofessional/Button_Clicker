@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+nav{
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#containernav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    flex: 2;
+}
+h1{
+    color: black;
+    margin-left: 20px;
+}
+#search{
+    height: 100%;
+    width: 100%;
+    flex: 2;
+}
+input {
+    height: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+#login{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+}
+#login button{
+    height: 25px;
+    width: 70px;
+    padding: 2%;
+    border: 2px solid black;
+    background-color: rgb(96, 153, 228);
+    box-shadow: 0 2px 2px 0 black;
+    margin-left: 40px;
+    color: white;
+}
+.container{
+    min-height: 70px;
+    width: 70%;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+main{
+    min-height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#containermain{
+    display: flex;
+}
+.column{
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#content{
+    min-height: 700px;
+    margin: 30px 15px auto auto;
+    flex: 2;
+    display: inline-block;
+}
+.row{
+    min-height: 280px;
+    width: 100%;
+    margin: 0 30px 40px auto;
+    display: flex;
+    align-items: center;
+}
+#ninjatop{
+    border: 2px solid black;
+}
+#ninjabottom{
+    border: 2px solid black;
+}
+.internalleft{
+    height: 280px;
+    width: 35%;
+    padding: 10% 5%;
+    font-style: italic;
+}
+.internalright{
+    height: auto;
+    width: 65%;
+}
+h3{
+    margin: 10px;
+    text-align: center;
+}
+h4{
+    margin: 10px;
+}
+.like {
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 208, 80);
+    border: 2px solid black;
+    box-shadow: 0 2px 2px 0;
+    height: 25px;
+    width: 70px;
+    padding: 2%;
+}
+#aside {
+    min-height: 700px;
+    margin: 30px auto auto 15px;
+    flex: 1;
+    display: inline-block;
+}
+#submit {
+    height: 240px;
+    width: 100%;
+    border: 2px solid black;
+    vertical-align: top;
+}
+#rowtop {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin: 10%;
+}
+#rowbottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rowbottom button{
+    width: 70%;
+    height: 30%;
+    background-color: rgb(155, 202, 108);
+    box-shadow: 0 2px 2px 0 black;
+}
+.iternalright p{
+    margin: 30px 15px;
+}
